@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>VirgusGaming</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <section class="top-nav">
+            <div class="top-nav">
+                <h1>VirgusGaming</h1>
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+            <ul class="menu">
+                <li>Inicio</li>
+                <li><a href="./pages/productos.html">Productos</a></li>
+                <li><a href="./pages/carrito.html">Carrito</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+                <li><a href="./pages/usuario.html">Usuario</a></li>
+            </ul>
+            <form class="barra-busqueda" action="">
+                <input type="search" placeholder="Buscar producto">
+                <input type="submit" value="Buscar">
+            </form>
+        </section>
+
+    </header>
+
+    <main>
+        <!--css no me detecta el tag "className"-->
+        <section class="productosImport">
+            <!--Imagenes en carrusel-->
+            <div class="divBanner">
+                <h2 class="titulo-principal">Productos Destacados</h2>
+                <img class="imagenes-carrusel" src="./img/ejemplo.png" alt="">
+            </div>
+
+        </section>
+
+        <section>
+            <h2 class="titulo-secundario">Productos en Oferta</h2>
+
+            <div class="imgOferta">
+                <!--imagenes de productos con descuentos-->
+                <div>
+                    <img src="./img/ejmp2.png" alt="">
+                    <!--nose si poner el titulo del producto en un <h> o en un <p>-->
+                    <p>producto</p>
+                    <a href="">agregar al carrito</a>
+                </div>
+
+                <div>
+                    <img src="./img/ejemplo.png" alt="">
+                    <h3>producto</h3>
+                    <a href="">agregar al carrito</a>
+                </div>
+
+                <div>
+                    <img src="./img/ejmp2.png" alt="">
+                    <h3>producto</h3>
+                    <a href="">agregar al carrito</a>
+                </div>
+
+                <div>
+                    <img src="./img/ejemplo.png" alt="">
+                    <h3>producto</h3>
+                    <a href="">agregar al carrito</a>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="foot">
+
+        <div class="contacto">
+            <h3>Contacto:</h3>
+            <p> +54 9 11********</p>
+        </div>
+
+        <div class="redes">
+            <h3>Nuestas Redes</h3>
+            <div>
+                <a class="fa fa-instagram" href="#"></a>
+                <a class="fa fa-facebook" href="#"></a>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
