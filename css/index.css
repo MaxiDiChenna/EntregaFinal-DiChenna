@@ -7,7 +7,7 @@
 
 /*inicio seccion nav mobile*/
 
-@media (max-width:320px) {
+@media (max-width:375px) {
     @import url(https://fonts.googleapis.com/css?family=Raleway);
     h2 {
         vertical-align: center;
