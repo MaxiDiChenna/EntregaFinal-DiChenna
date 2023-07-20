@@ -23,7 +23,7 @@
         font-family: "Raleway";
         box-sizing: border-box;
     }
-    .top-nav {
+    .top-nav-banner {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -269,17 +269,23 @@
 }
 
 
+/*fin seccion carrito mobile*/
+
+
+/*inicio seccion contacto mobile*/
+
+
 /*inicio seccion nav*/
 
-@media (min-width:1200px) {
+@media (min-width:1200px) and (max-width:1921px) {
     .top-nav {
         color: burlywood;
-        margin: 2rem;
-        padding: 1rem;
+        /* margin: 2rem;
+        padding: 1rem; */
         display: flex;
         cursor: pointer;
     }
-    .menu {
+    .top-nav-banner {
         position: fixed;
         width: 100%;
         top: 0;
@@ -287,22 +293,29 @@
         background: linear-gradient(violet, black);
         height: 90px;
     }
-    .menu ul {
+    .top-nav-banner ul {
         color: cyan;
         display: flex;
         list-style: none;
         gap: 3rem;
         padding-left: 530px;
     }
-    .menu ul li a {
+    .top-nav-banner ul li a {
         color: cyan;
         text-decoration: none;
     }
+    .top-nav-banner h1 {
+        margin-top: 1%;
+        margin-left: 1%;
+    }
     .barra-busqueda {
-        text-align: end;
-        padding-left: 500px;
+        /* text-align: end; */
+        padding-left: 89%;
     }
     .menu-button-container {
+        display: none;
+    }
+    #menu-toggle {
         display: none;
     }
     /*fin seccion nav*/
@@ -469,7 +482,7 @@
     /* inicio pag-carrito*/
     .carrito {
         display: flex;
-        margin-top: 5rem;
+        margin-top: 6rem;
         width: 35%;
         flex-direction: column;
         text-align: center;
@@ -491,7 +504,7 @@
         margin-top: -18rem;
         margin-bottom: 5rem;
         text-align: center;
-        margin-left: 50rem;
+        margin-left: 20rem;
     }
     .img-carrito-oferta img {
         width: 280px;
