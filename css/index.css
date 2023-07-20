@@ -239,6 +239,36 @@
 /*fin  seccion producto mobile*/
 
 
+/*inicio seccion carrito mobile*/
+
+.carrito {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.carrito img {
+    width: 30%;
+}
+
+.carrito-2 {
+    margin-top: 1rem;
+    border: 1px solid black;
+}
+
+.img-carrito-oferta {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.img-carrito-oferta img {
+    width: 45%;
+}
+
+
 /*inicio seccion nav*/
 
 @media (min-width:1200px) {
