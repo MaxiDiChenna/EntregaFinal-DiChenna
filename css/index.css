@@ -247,7 +247,7 @@
         justify-content: center;
         align-items: center;
         background-color: #fdfbfb;
-        margin-top: 15px;
+        margin-top: 1px;
     }
     .labels {
         display: grid;
@@ -304,6 +304,57 @@
     .menu>li:not(:last-child) {
         border-bottom: 1px solid #444;
     }
+    /*inicio footer seccion tablet*/
+    .foot {
+        padding: 1rem;
+        display: flex;
+        cursor: pointer;
+        background: linear-gradient(violet, black);
+        height: 5vh;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+    }
+    .contacto {
+        color: white;
+        width: 50%;
+    }
+    .redes {
+        display: inline;
+        margin-left: 60px;
+        color: white;
+    }
+    .redes h3 {
+        margin-left: 40px;
+    }
+    .redes div a {
+        margin-left: 70px;
+        color: white;
+    }
+    /*fin footer seccion tablet*/
+    /*inicio seccion index tablet*/
+    .productosImport {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: violet;
+    }
+    .titulo-secundario {
+        color: violet;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .imgOferta {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    .imgOferta img {
+        width: 75%;
+    }
+    /*inicio seccion productos tablet*/
 }
 
 
@@ -312,7 +363,7 @@
 
 /*inicio seccion nav desktop*/
 
-@media (min-width:1200px) and (max-width:1921px) {
+@media (min-width:701px) and (max-width:1921px) {
     .top-nav {
         color: burlywood;
         /* margin: 2rem;
