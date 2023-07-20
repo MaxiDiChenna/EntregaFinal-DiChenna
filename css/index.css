@@ -398,7 +398,7 @@
         align-items: center;
         height: 15vh;
         background-color: #fdfbfb;
-        margin-top: 10px;
+        margin-top: 5rem;
     }
     .productos-pag2 {
         display: grid;
@@ -448,7 +448,7 @@
         justify-content: start;
         flex-direction: column;
         gap: 1rem;
-        margin-top: 70px;
+        margin-top: 7rem;
     }
     .maps {
         display: flex;
