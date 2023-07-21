@@ -355,6 +355,26 @@
         width: 75%;
     }
     /*inicio seccion productos tablet*/
+    .tit-princ-2 {
+        color: violet;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .productos-pag2 {
+        display: grid;
+        height: 90vh;
+        grid-template-columns: 50% 50%;
+        margin-right: 50px;
+        margin-bottom: 5px;
+    }
+    .img-productos {
+        text-align: center;
+        text-decoration: none;
+    }
+    .img-productos img {
+        width: 150px;
+        height: auto;
+    }
 }
 
 
