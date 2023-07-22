@@ -739,7 +739,7 @@
     /* inicio pag-carrito*/
     .carrito {
         display: flex;
-        margin-top: 6rem;
+        margin-top: 7%;
         width: 35%;
         flex-direction: column;
         text-align: center;
