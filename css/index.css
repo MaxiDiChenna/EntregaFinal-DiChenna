@@ -16,8 +16,11 @@
     html,
     body {
         margin: 0;
-        height: 3%;
+        height: 100vh;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(237, 237, 237);
     }
     * {
         font-family: "Raleway";
@@ -103,7 +106,7 @@
         justify-content: center;
         align-items: center;
         height: 25vh;
-        background-color: #fdfbfb;
+        background-color: rgba(237, 237, 237);
     }
     .imagenes-carrusel {
         background-color: black;
@@ -145,22 +148,23 @@
         width: 100%;
         flex-direction: row;
         align-items: center;
+        margin-top: auto;
     }
     .contacto {
-        color: white;
+        color: rgba(237, 237, 237);
         width: 50%;
     }
     .redes {
         display: inline;
         margin-left: 60px;
-        color: white;
+        color: rgba(237, 237, 237);
     }
     .redes h3 {
         margin-left: 40px;
     }
     .redes div a {
         margin-left: 70px;
-        color: white;
+        color: rgba(237, 237, 237);
     }
     /*fin footer mobile*/
     /*inicio seccion produto version mobile*/
@@ -170,7 +174,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #fdfbfb;
+        background-color: rgba(237, 237, 237);
         margin-top: 10px;
     }
     .productos-pag2 {
@@ -246,7 +250,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #fdfbfb;
+        background-color: rgba(237, 237, 237);
         margin-top: 1px;
     }
     .labels {
@@ -265,7 +269,15 @@
 
 /*inicio seccion tablet*/
 
-@media(max-width:700px) {
+@media (max-width:700px) {
+    body {
+        margin: 0;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(237, 237, 237);
+    }
     /*inicio nav tablet*/
     .top-nav-banner {
         display: flex;
@@ -379,26 +391,26 @@
         display: flex;
         cursor: pointer;
         background: linear-gradient(violet, black);
-        height: 5vh;
+        height: 10vh;
         width: 100%;
         flex-direction: row;
         align-items: center;
     }
     .contacto {
-        color: white;
+        color: rgba(237, 237, 237);
         width: 50%;
     }
     .redes {
         display: inline;
         margin-left: 60px;
-        color: white;
+        color: rgba(237, 237, 237);
     }
     .redes h3 {
         margin-left: 40px;
     }
     .redes div a {
         margin-left: 70px;
-        color: white;
+        color: rgba(237, 237, 237);
     }
     /*fin footer seccion tablet*/
     /*inicio seccion index tablet*/
@@ -435,10 +447,11 @@
     }
     .productos-pag2 {
         display: grid;
-        height: 90vh;
+        height: 100vh;
         grid-template-columns: 50% 50%;
-        margin-right: 50px;
-        margin-bottom: 5px;
+        /* margin-right: 50px; */
+        margin-bottom: 5%;
+        margin-top: 5%;
     }
     .img-productos {
         text-align: center;
@@ -456,6 +469,7 @@
         flex-direction: column;
         align-items: center;
         align-content: center;
+        margin-top: 5%;
     }
     .carrito img {
         width: 30%;
@@ -511,8 +525,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #fdfbfb;
-        margin-top: 2%;
+        background-color: rgba(237, 237, 237);
+        margin-top: 5%;
     }
     .labels {
         display: grid;
@@ -534,6 +548,14 @@
 /*inicio seccion nav desktop*/
 
 @media (min-width:701px) and (max-width:1921px) {
+    body {
+        margin: 0;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(237, 237, 237);
+    }
     /*inicio nav*/
     .top-nav {
         color: burlywood;
@@ -586,7 +608,7 @@
         justify-content: center;
         align-items: center;
         height: 60vh;
-        background-color: #fdfbfb;
+        background-color: rgba(237, 237, 237);
         margin-top: 20px;
     }
     .imagenes-carrusel {
@@ -630,20 +652,20 @@
         width: 100%;
     }
     .contacto {
-        color: white;
+        color: rgba(237, 237, 237);
         width: 50%;
     }
     .redes {
         display: inline;
         margin-left: 400px;
-        color: white;
+        color: rgba(237, 237, 237);
     }
     .redes h3 {
         margin-left: 40px;
     }
     .redes div a {
         margin-left: 70px;
-        color: white;
+        color: rgba(237, 237, 237);
     }
     /*fin footer*/
     /*inicio pag-productos*/
@@ -654,7 +676,7 @@
         justify-content: center;
         align-items: center;
         height: 15vh;
-        background-color: #fdfbfb;
+        background-color: rgba(237, 237, 237);
         margin-top: 5rem;
     }
     .productos-pag2 {
@@ -682,7 +704,7 @@
         justify-content: center;
         align-items: center;
         height: 15vh;
-        background-color: #fdfbfb;
+        background-color: rgba(237, 237, 237);
         margin-top: 5rem;
     }
     .labels {
