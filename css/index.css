@@ -403,10 +403,14 @@
     /*fin footer seccion tablet*/
     /*inicio seccion index tablet*/
     .productosImport {
+        margin-top: 5%;
         display: flex;
         justify-content: center;
         text-align: center;
         color: violet;
+    }
+    .divBanner img {
+        margin-top: 5%;
     }
     .titulo-secundario {
         color: violet;
@@ -551,7 +555,7 @@
         display: flex;
         list-style: none;
         gap: 3rem;
-        padding-left: 530px;
+        padding-left: 45rem;
     }
     .top-nav-banner ul li a {
         color: cyan;
@@ -679,7 +683,7 @@
         align-items: center;
         height: 15vh;
         background-color: #fdfbfb;
-        margin-top: 40px;
+        margin-top: 5rem;
     }
     .labels {
         display: grid;
@@ -691,8 +695,8 @@
     .sponsor {
         display: flex;
         align-items: center;
-        gap: 35rem;
-        margin-left: 3rem;
+        gap: 25rem;
+        margin-left: 5rem;
     }
     /* fin-pag-usuario*/
     /* inicio-pag-contacto*/
