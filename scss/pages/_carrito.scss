@@ -32,4 +32,30 @@
         flex-direction: column;
         background-color: rgba(237, 237, 237);
     }
+    .carrito {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin-top: 5%;
+    }
+    .carrito img {
+        width: 30%;
+    }
+    .carrito-2 {
+        margin-top: 1rem;
+        border: 1px solid black;
+    }
+    .img-carrito-oferta {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        margin-top: 5%;
+        padding: 5%;
+    }
+    .img-carrito-oferta img {
+        width: 45%;
+    }
 }

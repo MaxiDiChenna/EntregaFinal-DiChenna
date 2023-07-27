@@ -30,4 +30,26 @@
         flex-direction: column;
         background-color: rgba(237, 237, 237);
     }
+    .titulo-principal-3 {
+        color: violet;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(237, 237, 237);
+        margin-top: 5%;
+    }
+    .labels {
+        display: grid;
+        align-content: stretch;
+        justify-content: center;
+        gap: 5rem;
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+    .sponsor {
+        display: none;
+    }
 }
+
+@media (min-width:701px) and (max-width:1921px) {}

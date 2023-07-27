@@ -37,4 +37,30 @@
         flex-direction: column;
         background-color: rgba(237, 237, 237);
     }
+    .foot {
+        padding: 1rem;
+        display: flex;
+        cursor: pointer;
+        background: linear-gradient(violet, black);
+        height: 10vh;
+        /* width: 100%; */
+        flex-direction: row;
+        align-items: center;
+    }
+    .contacto {
+        color: rgba(237, 237, 237);
+        width: 50%;
+    }
+    .redes {
+        display: inline;
+        margin-left: 60px;
+        color: rgba(237, 237, 237);
+    }
+    .redes h3 {
+        margin-left: 40px;
+    }
+    .redes div a {
+        margin-left: 70px;
+        color: rgba(237, 237, 237);
+    }
 }

@@ -33,4 +33,25 @@
         flex-direction: column;
         background-color: rgba(237, 237, 237);
     }
+    .tit-princ-2 {
+        color: violet;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .productos-pag2 {
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 50% 50%;
+        /* margin-right: 50px; */
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .img-productos {
+        text-align: center;
+        text-decoration: none;
+    }
+    .img-productos img {
+        width: 150px;
+        height: auto;
+    }
 }
