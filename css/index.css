@@ -110,9 +110,10 @@
     }
     .imagenes-carrusel {
         background-color: black;
-        height: 175px;
+        height: 200px;
         display: flex;
         justify-content: center;
+        /* width: 100%; */
     }
     /*fin seccion imagen mobile*/
     /*inicio imagenes oferta*/
@@ -128,7 +129,7 @@
         margin-bottom: 10px;
     }
     .imgOferta div img {
-        width: 75%;
+        width: 80%;
     }
     .imgOferta div {
         text-align: center;
@@ -287,9 +288,9 @@
         background: linear-gradient(violet, black);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         color: burlywood;
-        height: 50px;
+        height: 10%;
         padding: 1em;
-        width: 100%;
+        /* width: 100%; */
     }
     .menu {
         display: flex;
@@ -392,7 +393,7 @@
         cursor: pointer;
         background: linear-gradient(violet, black);
         height: 10vh;
-        width: 100%;
+        /* width: 100%; */
         flex-direction: row;
         align-items: center;
     }
@@ -479,12 +480,12 @@
         border: 1px solid black;
     }
     .img-carrito-oferta {
-        width: 100%;
+        width: 90%;
         display: grid;
         grid-template-columns: 50% 50%;
         align-items: center;
         margin-top: 5%;
-        padding: 4%;
+        padding: 5%;
     }
     .img-carrito-oferta img {
         width: 45%;
@@ -649,7 +650,7 @@
         cursor: pointer;
         background: linear-gradient(violet, black);
         height: 5vh;
-        width: 100%;
+        /* width: 100%; */
     }
     .contacto {
         color: rgba(237, 237, 237);
@@ -735,6 +736,7 @@
         flex-direction: column;
         margin-top: -430px;
         margin-right: 80px;
+        margin-bottom: 50px;
     }
     .maps div h2 {
         text-align: center;
@@ -768,7 +770,7 @@
         align-items: center;
     }
     .carrito img {
-        width: 20%;
+        width: 23%;
         height: 20%;
     }
     .carrito-2 {
@@ -779,11 +781,11 @@
         display: grid;
         margin-right: 1.5rem;
         grid-template-columns: 1fr 1fr;
-        justify-items: end;
+        /* justify-items: end; */
         margin-top: -18rem;
         margin-bottom: 5rem;
         text-align: center;
-        margin-left: 20rem;
+        margin-left: 35%;
     }
     .img-carrito-oferta img {
         width: 280px;
