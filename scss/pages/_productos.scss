@@ -1,0 +1,36 @@
+@media (max-width:400px) {
+    .tit-princ-2 {
+        color: violet;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(237, 237, 237);
+        margin-top: 10px;
+    }
+    .productos-pag2 {
+        display: grid;
+        gap: 0rem;
+        height: 100vh;
+        grid-template-columns: 50% 50%;
+    }
+    .img-productos {
+        text-align: center;
+        text-decoration: none;
+    }
+    .img-productos img {
+        width: 90px;
+        height: auto;
+    }
+}
+
+@media (max-width:700px) {
+    body {
+        margin: 0;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(237, 237, 237);
+    }
+}

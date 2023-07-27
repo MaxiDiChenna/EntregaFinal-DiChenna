@@ -1,0 +1,35 @@
+@media (max-width:400px) {
+    .carrito {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .carrito img {
+        width: 30%;
+    }
+    .carrito-2 {
+        margin-top: 1rem;
+        border: 1px solid black;
+    }
+    .img-carrito-oferta {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .img-carrito-oferta img {
+        width: 45%;
+    }
+}
+
+@media (max-width:700px) {
+    body {
+        margin: 0;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(237, 237, 237);
+    }
+}

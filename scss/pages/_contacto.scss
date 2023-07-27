@@ -1,0 +1,39 @@
+@media (max-width:400px) {
+    .contac {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3%;
+    }
+    .contac h2 {
+        color: violet;
+    }
+    .maps {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .maps h2 {
+        color: violet;
+    }
+    .maps-2 {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:700px) {
+    body {
+        margin: 0;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(237, 237, 237);
+    }
+}
