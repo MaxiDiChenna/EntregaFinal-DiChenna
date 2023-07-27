@@ -65,4 +65,37 @@
     }
 }
 
-@media (min-width:701px) and (max-width:1921px) {}
+@media (min-width:701px) and (max-width:1921px) {
+    body {
+        margin: 0;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(237, 237, 237);
+    }
+    .foot {
+        padding: 1rem;
+        display: flex;
+        cursor: pointer;
+        background: linear-gradient(violet, black);
+        height: 5vh;
+        /* width: 100%; */
+    }
+    .contacto {
+        color: rgba(237, 237, 237);
+        width: 50%;
+    }
+    .redes {
+        display: inline;
+        margin-left: 400px;
+        color: rgba(237, 237, 237);
+    }
+    .redes h3 {
+        margin-left: 40px;
+    }
+    .redes div a {
+        margin-left: 70px;
+        color: rgba(237, 237, 237);
+    }
+}

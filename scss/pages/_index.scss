@@ -79,4 +79,56 @@
     }
 }
 
-@media (min-width:701px) and (max-width:1921px) {}
+@media (min-width:701px) and (max-width:1921px) {
+    body {
+        margin: 0;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(237, 237, 237);
+    }
+    /*inicio seccion imagen-index*/
+    .titulo-principal {
+        color: violet;
+        text-align: center;
+    }
+    .productosImport {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        background-color: rgba(237, 237, 237);
+        margin-top: 20px;
+    }
+    .imagenes-carrusel {
+        background-color: black;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    /*fin seccion imagen*/
+    /*inicio imagenes oferta*/
+    .titulo-secundario {
+        color: violet;
+        text-align: center;
+    }
+    .imgOferta {
+        display: flex;
+        gap: 1.5rem;
+        margin-top: 20px;
+        height: 29vh;
+    }
+    .imgOferta div img {
+        width: 80%;
+        margin-left: 45px;
+    }
+    .imgOferta div {
+        text-align: center;
+    }
+    .imgOferta div a {
+        text-decoration: none;
+        color: black;
+    }
+}
