@@ -1,11 +1,11 @@
 @media (max-width:400px) {
     .titulo-principal-3 {
-        color: violet;
+        color: $c-violeta;
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgba(237, 237, 237);
+        background-color: $c-fondo;
         margin-top: 1px;
     }
     .labels {
@@ -28,15 +28,15 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        background-color: rgba(237, 237, 237);
+        background-color: $c-fondo;
     }
     .titulo-principal-3 {
-        color: violet;
+        color: $c-violeta;
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgba(237, 237, 237);
+        background-color: $c-fondo;
         margin-top: 5%;
     }
     .labels {
@@ -59,15 +59,15 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        background-color: rgba(237, 237, 237);
+        background-color: $c-fondo;
     }
     .titulo-principal-3 {
-        color: violet;
+        color: $c-violeta;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 15vh;
-        background-color: rgba(237, 237, 237);
+        background-color: $c-fondo;
         margin-top: 5rem;
     }
     .labels {

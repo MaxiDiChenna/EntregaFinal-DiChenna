@@ -7,7 +7,7 @@
         padding: 3%;
     }
     .contac h2 {
-        color: violet;
+        color: $c-violeta;
     }
     .maps {
         display: flex;
@@ -19,7 +19,7 @@
         margin-bottom: 15px;
     }
     .maps h2 {
-        color: violet;
+        color: $c-violeta;
     }
     .maps-2 {
         width: 100%;
@@ -34,7 +34,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        background-color: rgba(237, 237, 237);
+        background-color: $c-fondo;
     }
     .contac {
         display: flex;
@@ -44,7 +44,7 @@
         padding: 3%;
     }
     .contac h2 {
-        color: violet;
+        color: $c-violeta;
     }
     .maps {
         display: flex;
@@ -56,7 +56,7 @@
         margin-bottom: 3%;
     }
     .maps h2 {
-        color: violet;
+        color: $c-violeta;
     }
     .maps-2 {
         width: 100%;
@@ -71,7 +71,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        background-color: rgba(237, 237, 237);
+        background-color: $c-fondo;
     }
     .sec-contacto {
         display: flex;
@@ -91,7 +91,7 @@
     .maps div h2 {
         text-align: center;
         margin-bottom: 40px;
-        color: violet;
+        color: $c-violeta;
     }
     .maps div p {
         text-align: center;
@@ -100,12 +100,12 @@
     }
     .contac h2 {
         margin-left: 30px;
-        color: violet;
+        color: $c-violeta;
     }
     .contac p {
         margin: 0px 100px;
         width: 300px;
-        border: 1px solid black;
+        border: 1px solid $c-negro;
         padding: 1em;
         text-align: center;
     }

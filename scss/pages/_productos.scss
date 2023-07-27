@@ -1,11 +1,11 @@
 @media (max-width:400px) {
     .tit-princ-2 {
-        color: violet;
+        color: $c-violeta;
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgba(237, 237, 237);
+        background-color: $c-fondo;
         margin-top: 10px;
     }
     .productos-pag2 {
@@ -31,10 +31,10 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        background-color: rgba(237, 237, 237);
+        background-color: $c-fondo;
     }
     .tit-princ-2 {
-        color: violet;
+        color: $c-violeta;
         text-align: center;
         margin-top: 5%;
     }
@@ -63,16 +63,16 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        background-color: rgba(237, 237, 237);
+        background-color: $c-fondo;
     }
     .tit-princ-2 {
-        color: violet;
+        color: $c-violeta;
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 15vh;
-        background-color: rgba(237, 237, 237);
+        background-color: $c-fondo;
         margin-top: 5rem;
     }
     .productos-pag2 {

@@ -3,7 +3,7 @@
         padding: 1rem;
         display: flex;
         cursor: pointer;
-        background: linear-gradient(violet, black);
+        background: $c-nav;
         height: 10vh;
         width: 100%;
         flex-direction: row;
@@ -11,20 +11,20 @@
         margin-top: auto;
     }
     .contacto {
-        color: rgba(237, 237, 237);
+        color: $c-fondo;
         width: 50%;
     }
     .redes {
         display: inline;
         margin-left: 60px;
-        color: rgba(237, 237, 237);
+        color: $c-fondo;
     }
     .redes h3 {
         margin-left: 40px;
     }
     .redes div a {
         margin-left: 70px;
-        color: rgba(237, 237, 237);
+        color: $c-fondo;
     }
 }
 
@@ -35,33 +35,33 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        background-color: rgba(237, 237, 237);
+        background-color: $c-fondo;
     }
     .foot {
         padding: 1rem;
         display: flex;
         cursor: pointer;
-        background: linear-gradient(violet, black);
+        background: $c-nav;
         height: 10vh;
         /* width: 100%; */
         flex-direction: row;
         align-items: center;
     }
     .contacto {
-        color: rgba(237, 237, 237);
+        color: $c-fondo;
         width: 50%;
     }
     .redes {
         display: inline;
         margin-left: 60px;
-        color: rgba(237, 237, 237);
+        color: $c-fondo;
     }
     .redes h3 {
         margin-left: 40px;
     }
     .redes div a {
         margin-left: 70px;
-        color: rgba(237, 237, 237);
+        color: $c-fondo;
     }
 }
 
@@ -72,30 +72,30 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        background-color: rgba(237, 237, 237);
+        background-color: $c-fondo;
     }
     .foot {
         padding: 1rem;
         display: flex;
         cursor: pointer;
-        background: linear-gradient(violet, black);
+        background: $c-nav;
         height: 5vh;
         /* width: 100%; */
     }
     .contacto {
-        color: rgba(237, 237, 237);
+        color: $c-fondo;
         width: 50%;
     }
     .redes {
         display: inline;
         margin-left: 400px;
-        color: rgba(237, 237, 237);
+        color: $c-fondo;
     }
     .redes h3 {
         margin-left: 40px;
     }
     .redes div a {
         margin-left: 70px;
-        color: rgba(237, 237, 237);
+        color: $c-fondo;
     }
 }

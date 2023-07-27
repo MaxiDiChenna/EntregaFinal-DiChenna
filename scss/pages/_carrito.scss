@@ -11,7 +11,7 @@
     }
     .carrito-2 {
         margin-top: 1rem;
-        border: 1px solid black;
+        border: 1px solid $c-negro;
     }
     .img-carrito-oferta {
         display: flex;
@@ -30,7 +30,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        background-color: rgba(237, 237, 237);
+        background-color: $c-fondo;
     }
     .carrito {
         display: flex;
@@ -45,7 +45,7 @@
     }
     .carrito-2 {
         margin-top: 1rem;
-        border: 1px solid black;
+        border: 1px solid $c-negro;
     }
     .img-carrito-oferta {
         width: 90%;
@@ -67,7 +67,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        background-color: rgba(237, 237, 237);
+        background-color: $c-fondo;
     }
     .carrito {
         display: flex;
@@ -83,7 +83,7 @@
     }
     .carrito-2 {
         margin-top: 5rem;
-        border: 1px solid black;
+        border: 1px solid $c-negro;
     }
     .img-carrito-oferta {
         display: grid;
