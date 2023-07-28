@@ -52,16 +52,34 @@
         flex-direction: column;
         background-color: $c-fondo;
     }
+    .slider {
+        aspect-ratio: 10 / 16;
+        width: 300px;
+        position: relative;
+        display: flex;
+        overflow: scroll;
+        scroll-snap-type: x mandatory;
+        margin-left: 28%;
+    }
+    .slider img {
+        width: 100%;
+        left: 0;
+        position: sticky;
+        object-fit: cover;
+        border-radius: 5px;
+        scroll-snap-align: center;
+    }
     .productosImport {
         margin-top: 5%;
         display: flex;
         justify-content: center;
         text-align: center;
         color: $c-violeta;
+        flex-direction: column;
     }
-    .divBanner img {
-        margin-top: 5%;
-    }
+    // .slider img {
+    //     margin-top: 5%;
+    // }
     .titulo-secundario {
         color: $c-violeta;
         text-align: center;
@@ -97,13 +115,30 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 60vh;
+        height: 45vh;
         background-color: $c-fondo;
-        margin-top: 20px;
+        margin-top: 6%;
+        flex-direction: column;
+    }
+    .slider {
+        // aspect-ratio: 10 / 16;
+        width: 300px;
+        position: relative;
+        display: flex;
+        overflow: scroll;
+        scroll-snap-type: x mandatory;
+    }
+    .slider img {
+        width: 100%;
+        left: 0;
+        position: sticky;
+        object-fit: cover;
+        border-radius: 5px;
+        scroll-snap-align: center;
     }
     .imagenes-carrusel {
         background-color: $c-negro;
-        height: 350px;
+        height: 300px;
         display: flex;
         justify-content: center;
         margin-top: 20px;
@@ -117,8 +152,8 @@
     .imgOferta {
         display: flex;
         gap: 1.5rem;
-        margin-top: 20px;
-        height: 29vh;
+        margin-top: 5%;
+        height: 30vh;
     }
     .imgOferta div img {
         width: 80%;
