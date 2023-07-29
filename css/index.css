@@ -568,21 +568,35 @@
   }
 }
 @media (max-width: 400px) {
+  .productosImport {
+    align-items: center;
+    height: 25vh;
+    background-color: rgb(237, 237, 237);
+  }
   .titulo-principal {
     color: violet;
     text-align: center;
     padding: 0.5rem;
   }
-  .productosImport {
+  .slider {
+    aspect-ratio: 10/16;
+    width: 300px;
+    position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25vh;
-    background-color: rgb(237, 237, 237);
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  .slider img {
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: cover;
+    border-radius: 5px;
+    scroll-snap-align: center;
   }
   .imagenes-carrusel {
     background-color: black;
-    height: 200px;
+    height: 100%;
     display: flex;
     justify-content: center;
     /* width: 100%; */
@@ -606,7 +620,7 @@
   .imgOferta div {
     text-align: center;
   }
-  .imgOferta div a {
+  .imgOferta-a {
     text-decoration: none;
     color: black;
   }
@@ -621,13 +635,13 @@
     background-color: rgb(237, 237, 237);
   }
   .slider {
-    aspect-ratio: 10/16;
-    width: 300px;
+    width: 400px;
     position: relative;
     display: flex;
     overflow: scroll;
     scroll-snap-type: x mandatory;
-    margin-left: 28%;
+    margin-left: 20%;
+    margin-top: 5%;
   }
   .slider img {
     width: 100%;
@@ -658,7 +672,7 @@
     text-align: center;
   }
   .imgOferta img {
-    width: 75%;
+    width: 70%;
   }
 }
 @media (min-width: 701px) and (max-width: 1921px) {
@@ -685,7 +699,7 @@
     flex-direction: column;
   }
   .slider {
-    width: 300px;
+    width: 500px;
     position: relative;
     display: flex;
     overflow: scroll;
@@ -715,19 +729,21 @@
   .imgOferta {
     display: flex;
     gap: 1.5rem;
-    margin-top: 5%;
-    height: 30vh;
+    margin-top: 4%;
+    height: 45vh;
   }
   .imgOferta div img {
-    width: 80%;
-    margin-left: 45px;
+    width: 100%;
+    margin-left: 50px;
+    height: 350px;
   }
   .imgOferta div {
     text-align: center;
   }
-  .imgOferta div a {
+  .imgOferta-a {
     text-decoration: none;
     color: black;
+    text-align: center;
   }
 }
 @media (max-width: 400px) {
