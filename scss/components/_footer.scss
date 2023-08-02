@@ -1,51 +1,45 @@
-@media (max-width:400px) {
-    .foot {
-        padding: 1rem;
-        display: flex;
-        cursor: pointer;
-        background: $c-nav;
-        height: 10vh;
-        width: 100%;
-        flex-direction: row;
-        align-items: center;
-        margin-top: auto;
-    }
-    .contacto {
-        color: $c-fondo;
-        width: 50%;
-    }
-    .redes {
-        display: inline;
-        margin-left: 60px;
-        color: $c-fondo;
-    }
-    .redes h3 {
-        margin-left: 40px;
-    }
-    .redes div a {
-        margin-left: 70px;
-        color: $c-fondo;
-    }
-}
-
+// @media (max-width:400px) {
+//     .foot {
+//         padding: 1rem;
+//         display: flex;
+//         cursor: pointer;
+//         background: $c-nav;
+//         height: 10vh;
+//         width: 100%;
+//         flex-direction: row;
+//         align-items: center;
+//         margin-top: auto;
+//     }
+//     .contacto {
+//         color: $c-fondo;
+//         width: 50%;
+//     }
+//     .redes {
+//         display: inline;
+//         margin-left: 60px;
+//         color: $c-fondo;
+//     }
+//     .redes h3 {
+//         margin-left: 40px;
+//     }
+//     .redes div a {
+//         margin-left: 70px;
+//         color: $c-fondo;
+//     }
+// }
 @media (max-width:700px) {
-    body {
-        margin: 0;
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        background-color: $c-fondo;
-    }
     .foot {
         padding: 1rem;
         display: flex;
         cursor: pointer;
         background: $c-nav;
         height: 10vh;
-        /* width: 100%; */
+        width: 100%;
         flex-direction: row;
         align-items: center;
+        position: absolute;
+        padding: 0%;
+        bottom: 0;
     }
     .contacto {
         color: $c-fondo;
@@ -66,14 +60,6 @@
 }
 
 @media (min-width:701px) and (max-width:1921px) {
-    body {
-        margin: 0;
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        background-color: $c-fondo;
-    }
     .foot {
         padding: 1rem;
         display: flex;
