@@ -7,7 +7,7 @@ body {
     background-color: $c-fondo;
 }
 
-@media (max-width:400px) {
+@media (max-width:401px) {
     .tit-princ-2 {
         color: $c-violeta;
         text-align: center;
@@ -15,12 +15,13 @@ body {
         justify-content: center;
         align-items: center;
         background-color: $c-fondo;
-        margin-top: 10px;
+        margin-top: 5%;
     }
     .productos-pag2 {
         display: grid;
-        gap: 0rem;
-        height: 100vh;
+        margin-top: 5%;
+        // gap: 0rem;
+        height: 95vh;
         grid-template-columns: 50% 50%;
     }
     .img-productos {
@@ -33,7 +34,7 @@ body {
     }
 }
 
-@media (max-width:700px) {
+@media (min-width:402px) and (max-width:700px) {
     .tit-princ-2 {
         color: $c-violeta;
         text-align: center;

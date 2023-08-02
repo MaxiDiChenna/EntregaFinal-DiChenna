@@ -193,7 +193,6 @@
     cursor: pointer;
     background: linear-gradient(violet, black);
     height: 10vh;
-    width: 100%;
     flex-direction: row;
     align-items: center;
   }
@@ -276,7 +275,6 @@
     cursor: pointer;
     background: linear-gradient(violet, black);
     height: 10vh;
-    width: 100%;
     flex-direction: row;
     align-items: center;
   }
@@ -453,6 +451,33 @@ body {
     margin-top: 5px;
   }
 }
+@media (min-width: 401px) and (max-width: 551px) {
+  .contac {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .contac h2 {
+    color: violet;
+  }
+  .maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .maps h2 {
+    color: violet;
+  }
+  .maps-2 {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
 @media (max-width: 700px) {
   .contac {
     display: flex;
@@ -478,7 +503,7 @@ body {
   }
   .maps-2 {
     width: 100%;
-    margin-top: 2%;
+    margin-top: 1%;
   }
 }
 @media (min-width: 701px) and (max-width: 1921px) {
@@ -724,7 +749,7 @@ body {
   background-color: rgb(237, 237, 237);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 401px) {
   .tit-princ-2 {
     color: violet;
     text-align: center;
@@ -732,12 +757,12 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(237, 237, 237);
-    margin-top: 10px;
+    margin-top: 5%;
   }
   .productos-pag2 {
     display: grid;
-    gap: 0rem;
-    height: 100vh;
+    margin-top: 5%;
+    height: 95vh;
     grid-template-columns: 50% 50%;
   }
   .img-productos {
@@ -749,7 +774,7 @@ body {
     height: auto;
   }
 }
-@media (max-width: 700px) {
+@media (min-width: 402px) and (max-width: 700px) {
   .tit-princ-2 {
     color: violet;
     text-align: center;
