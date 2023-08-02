@@ -1,3 +1,12 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: $c-fondo;
+}
+
 @media (max-width:400px) {
     .titulo-principal-3 {
         color: $c-violeta;
@@ -22,14 +31,6 @@
 }
 
 @media (max-width:700px) {
-    body {
-        margin: 0;
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        background-color: $c-fondo;
-    }
     .titulo-principal-3 {
         color: $c-violeta;
         text-align: center;
@@ -53,14 +54,6 @@
 }
 
 @media (min-width:701px) and (max-width:1921px) {
-    body {
-        margin: 0;
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        background-color: $c-fondo;
-    }
     .titulo-principal-3 {
         color: $c-violeta;
         display: flex;

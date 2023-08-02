@@ -1,3 +1,12 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: $c-fondo;
+}
+
 @media (max-width:400px) {
     .productosImport {
         // display: flex;
@@ -61,14 +70,6 @@
 }
 
 @media (max-width:700px) {
-    body {
-        margin: 0;
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        background-color: $c-fondo;
-    }
     .slider {
         // aspect-ratio: 10 / 16;
         width: 400px;
@@ -116,14 +117,6 @@
 }
 
 @media (min-width:701px) and (max-width:1921px) {
-    body {
-        margin: 0;
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        background-color: $c-fondo;
-    }
     /*inicio seccion imagen-index*/
     .titulo-principal {
         color: $c-violeta;
@@ -185,5 +178,32 @@
         text-decoration: none;
         color: $c-negro;
         text-align: center;
+    }
+}
+
+@media (max-width:550px) {
+    .slider {
+        // aspect-ratio: 10 / 16;
+        width: 310px;
+        position: relative;
+        display: flex;
+        overflow: scroll;
+        scroll-snap-type: x mandatory;
+        // margin-left: 28%;
+    }
+    .slider img {
+        width: 100%;
+        left: 0;
+        position: sticky;
+        object-fit: cover;
+        border-radius: 5px;
+        scroll-snap-align: center;
+    }
+    .imagenes-carrusel {
+        background-color: $c-negro;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        /* width: 100%; */
     }
 }

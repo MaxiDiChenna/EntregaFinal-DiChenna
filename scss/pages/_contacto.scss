@@ -1,3 +1,12 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: $c-fondo;
+}
+
 @media (max-width:400px) {
     .contac {
         display: flex;
@@ -28,14 +37,6 @@
 }
 
 @media (max-width:700px) {
-    body {
-        margin: 0;
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        background-color: $c-fondo;
-    }
     .contac {
         display: flex;
         flex-direction: column;
@@ -65,14 +66,6 @@
 }
 
 @media (min-width:701px) and (max-width:1921px) {
-    body {
-        margin: 0;
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        background-color: $c-fondo;
-    }
     .sec-contacto {
         display: flex;
         justify-content: start;
