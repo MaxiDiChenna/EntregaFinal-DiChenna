@@ -482,7 +482,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 15px;
+    height: 65%;
   }
   .maps h2 {
     color: violet;
@@ -579,6 +579,7 @@ body {
     color: violet;
     text-align: center;
     padding: 0.5rem;
+    font-size: 1.18rem;
   }
   .slider {
     width: 300px;
@@ -635,13 +636,17 @@ body {
   }
 }
 @media (min-width: 551px) and (max-width: 700px) {
+  .titulo-principal {
+    color: violet;
+    text-align: center;
+    font-size: 1.18rem;
+  }
   .slider {
     width: 400px;
     position: relative;
     display: flex;
     overflow: scroll;
     scroll-snap-type: x mandatory;
-    margin-left: 20%;
     margin-top: 5%;
   }
   .slider img {
@@ -659,6 +664,7 @@ body {
     text-align: center;
     color: violet;
     flex-direction: column;
+    align-items: center;
   }
   .titulo-secundario {
     color: violet;
@@ -672,7 +678,8 @@ body {
     text-align: center;
   }
   .imgOferta img {
-    width: 70%;
+    width: 75%;
+    height: 80%;
     border-radius: 15px;
   }
 }
@@ -681,6 +688,7 @@ body {
   .titulo-principal {
     color: violet;
     text-align: center;
+    font-size: 1.3rem;
   }
   .productosImport {
     display: flex;
@@ -718,6 +726,7 @@ body {
   .titulo-secundario {
     color: violet;
     text-align: center;
+    font-size: 1.6rem;
   }
   .imgOferta {
     display: flex;
@@ -741,6 +750,11 @@ body {
   }
 }
 @media (min-width: 401px) and (max-width: 550px) {
+  .titulo-principal {
+    color: violet;
+    text-align: center;
+    font-size: 1.2rem;
+  }
   .productosImport {
     margin-top: 5%;
     display: flex;
@@ -748,6 +762,7 @@ body {
     text-align: center;
     color: violet;
     flex-direction: column;
+    align-items: center;
   }
   .slider {
     width: 310px;
@@ -755,7 +770,6 @@ body {
     display: flex;
     overflow: scroll;
     scroll-snap-type: x mandatory;
-    margin-left: 22%;
     margin-top: 15px;
   }
   .slider img {
@@ -785,7 +799,8 @@ body {
     text-align: center;
   }
   .imgOferta img {
-    width: 70%;
+    width: 85%;
+    height: 70%;
     border-radius: 15px;
   }
 }
@@ -807,6 +822,7 @@ body {
     align-items: center;
     background-color: rgb(237, 237, 237);
     margin-top: 5%;
+    font-size: 1.18rem;
   }
   .productos-pag2 {
     display: grid;
@@ -830,6 +846,7 @@ body {
     color: violet;
     text-align: center;
     margin-top: 5%;
+    font-size: 1.2rem;
   }
   .productos-pag2 {
     display: grid;
@@ -858,6 +875,7 @@ body {
     height: 15vh;
     background-color: rgb(237, 237, 237);
     margin-top: 4%;
+    font-size: 1.3rem;
   }
   .productos-pag2 {
     display: grid;
@@ -896,6 +914,7 @@ body {
     align-items: center;
     background-color: rgb(237, 237, 237);
     margin-top: 1px;
+    font-size: 1.18rem;
   }
   .labels {
     display: grid;
@@ -918,6 +937,7 @@ body {
     align-items: center;
     background-color: rgb(237, 237, 237);
     margin-top: 5%;
+    font-size: 1.16rem;
   }
   .labels {
     display: grid;
@@ -940,6 +960,7 @@ body {
     height: 15vh;
     background-color: rgb(237, 237, 237);
     margin-top: 5rem;
+    font-size: 1.3rem;
   }
   .labels {
     display: grid;

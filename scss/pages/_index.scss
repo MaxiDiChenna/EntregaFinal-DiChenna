@@ -20,6 +20,7 @@ body {
         color: $c-violeta;
         text-align: center;
         padding: 0.5rem;
+        font-size: 1.18rem;
     }
     .slider {
         // aspect-ratio: 10 / 16;
@@ -79,6 +80,11 @@ body {
 }
 
 @media (min-width:551px) and (max-width:700px) {
+    .titulo-principal {
+        color: $c-violeta;
+        text-align: center;
+        font-size: 1.18rem;
+    }
     .slider {
         // aspect-ratio: 10 / 16;
         width: 400px;
@@ -123,7 +129,7 @@ body {
         // border-radius: 15px;
         width: 75%;
         height: 80%;
-        border-radius: 20px;
+        border-radius: 15px;
     }
 }
 
@@ -132,6 +138,7 @@ body {
     .titulo-principal {
         color: $c-violeta;
         text-align: center;
+        font-size: 1.3rem;
     }
     .productosImport {
         display: flex;
@@ -170,6 +177,7 @@ body {
     .titulo-secundario {
         color: $c-violeta;
         text-align: center;
+        font-size: 1.6rem;
     }
     .imgOferta {
         display: flex;
@@ -194,6 +202,11 @@ body {
 }
 
 @media (min-width:401px) and (max-width:550px) {
+    .titulo-principal {
+        color: $c-violeta;
+        text-align: center;
+        font-size: 1.2rem;
+    }
     .productosImport {
         margin-top: 5%;
         display: flex;
