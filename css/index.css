@@ -4,6 +4,26 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
+@keyframes vibrar {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
 @media (max-width: 700px) {
   .top-nav-banner {
     display: flex;
@@ -408,6 +428,9 @@ body {
     height: 20%;
     border-radius: 10px;
   }
+  .carrito img:hover {
+    animation: vibrar 0.4s linear both;
+  }
   .carrito-2 {
     margin-top: 5rem;
     border: 1px solid black;
@@ -421,11 +444,35 @@ body {
     margin-bottom: 5rem;
     text-align: center;
     margin-left: 35%;
+    grid-gap: 2%;
   }
   .img-carrito-oferta img {
-    width: 280px;
-    height: 280px;
+    width: 300px;
+    height: 300px;
     border-radius: 30px;
+  }
+  .img-carrito-oferta img:hover {
+    animation: vibrar 0.6s linear both;
+  }
+  @keyframes vibrar {
+    0% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translate(-2px, 2px);
+    }
+    40% {
+      transform: translate(-2px, -2px);
+    }
+    60% {
+      transform: translate(2px, 2px);
+    }
+    80% {
+      transform: translate(2px, -2px);
+    }
+    100% {
+      transform: translate(0);
+    }
   }
 }
 body {
@@ -705,6 +752,7 @@ body {
     display: flex;
     overflow: scroll;
     scroll-snap-type: x mandatory;
+    animation: jello-vertical 1.5s linear both;
   }
   .slider img {
     width: 100%;
@@ -739,14 +787,48 @@ body {
     margin-left: 50px;
     height: 350px;
     border-radius: 40px;
-  }
-  .imgOferta div {
-    text-align: center;
+    animation: jello-vertical 1.5s linear both;
   }
   .imgOferta-a {
     text-decoration: none;
     color: black;
     text-align: center;
+  }
+  .imgOferta-a img:hover {
+    animation: scale-up-top 1s;
+  }
+  @keyframes jello-vertical {
+    0% {
+      transform: scale3d(1, 1, 1);
+    }
+    30% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+      transform: scale3d(0.85, 1.15, 1);
+    }
+    65% {
+      transform: scale3d(1.05, 0.95, 1);
+    }
+    75% {
+      transform: scale3d(0.95, 1.05, 1);
+    }
+    100% {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes scale-up-top {
+    0% {
+      transform: scale(0.5);
+      transform-origin: center top;
+    }
+    100% {
+      transform: scale(1);
+      transform-origin: center top;
+    }
   }
 }
 @media (min-width: 401px) and (max-width: 550px) {
@@ -894,6 +976,42 @@ body {
     width: 350px;
     height: auto;
     border-radius: 30px;
+    animation: jello-horizontal 0.9s linear both;
+    animation-delay: 0.1s;
+  }
+  .img-productos img:hover {
+    animation: escala-center 0.6s;
+  }
+  @keyframes escala-center {
+    0% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes jello-horizontal {
+    0% {
+      transform: scale3d(1, 1, 1);
+    }
+    30% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      transform: scale3d(1, 1, 1);
+    }
   }
 }
 body {

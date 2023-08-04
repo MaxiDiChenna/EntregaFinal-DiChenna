@@ -156,6 +156,7 @@ body {
         display: flex;
         overflow: scroll;
         scroll-snap-type: x mandatory;
+        animation: jello-vertical 1.5s linear both
     }
     .slider img {
         width: 100%;
@@ -190,14 +191,48 @@ body {
         margin-left: 50px;
         height: 350px;
         border-radius: 40px;
-    }
-    .imgOferta div {
-        text-align: center;
+        animation: jello-vertical 1.5s linear both
     }
     .imgOferta-a {
         text-decoration: none;
         color: $c-negro;
         text-align: center;
+        img:hover {
+            animation: scale-up-top 1s;
+        }
+    }
+    @keyframes jello-vertical {
+        0% {
+            transform: scale3d(1, 1, 1)
+        }
+        30% {
+            transform: scale3d(.75, 1.25, 1)
+        }
+        40% {
+            transform: scale3d(1.25, .75, 1)
+        }
+        50% {
+            transform: scale3d(.85, 1.15, 1)
+        }
+        65% {
+            transform: scale3d(1.05, .95, 1)
+        }
+        75% {
+            transform: scale3d(.95, 1.05, 1)
+        }
+        100% {
+            transform: scale3d(1, 1, 1)
+        }
+    }
+    @keyframes scale-up-top {
+        0% {
+            transform: scale(.5);
+            transform-origin: center top
+        }
+        100% {
+            transform: scale(1);
+            transform-origin: center top
+        }
     }
 }
 
