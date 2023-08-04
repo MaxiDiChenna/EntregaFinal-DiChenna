@@ -52,9 +52,8 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        // margin-top: 5%;
         text-align: center;
-        margin-bottom: 15px;
+        height: 65%;
     }
     .maps h2 {
         color: $c-violeta;
@@ -65,7 +64,7 @@ body {
     }
 }
 
-@media (max-width:700px) {
+@media (min-width:552px) and (max-width:700px) {
     .contac {
         display: flex;
         flex-direction: column;
@@ -100,7 +99,8 @@ body {
         justify-content: start;
         flex-direction: column;
         gap: 1rem;
-        margin-top: 7rem;
+        margin-top: 6%;
+        margin-left: 8%;
     }
     .maps {
         display: flex;

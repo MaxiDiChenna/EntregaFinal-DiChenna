@@ -32,8 +32,8 @@
         // padding: 1rem;
         display: flex;
         cursor: pointer;
-        background: $c-nav;
-        height: 10vh;
+        background: $c-foot;
+        height: 6%;
         width: 100%;
         flex-direction: row;
         align-items: center;
@@ -50,6 +50,7 @@
         display: inline;
         margin-left: 60px;
         color: $c-fondo;
+        width: 75%;
     }
     .redes h3 {
         margin-left: 40px;
@@ -65,7 +66,7 @@
         padding: 1rem;
         display: flex;
         cursor: pointer;
-        background: $c-nav;
+        background: $c-foot;
         height: 10vh;
         // width: 100%;
         flex-direction: row;
@@ -98,7 +99,7 @@
         padding: 1rem;
         display: flex;
         cursor: pointer;
-        background: $c-nav;
+        background: $c-foot;
         height: 5vh;
         // width: 98%;
     }
@@ -125,14 +126,13 @@
         // padding: 1rem;
         display: flex;
         cursor: pointer;
-        background: $c-nav;
+        background: $c-foot;
         height: 10vh;
-        width: 100%;
+        // width: 100%;
         flex-direction: row;
         align-items: center;
-        // position: absolute;
-        padding: 0%;
-        // bottom: 0;
+        padding: 1%;
+        margin-top: 15%;
     }
     .contacto {
         color: $c-fondo;
@@ -158,11 +158,12 @@
         padding: 1rem;
         display: flex;
         cursor: pointer;
-        background: $c-nav;
+        background: $c-foot;
         height: 10vh;
         // width: 100%;
         flex-direction: row;
         align-items: center;
+        margin-top: 15%;
         // position: absolute;
         // padding: 0%;
         // bottom: 0;
@@ -190,7 +191,7 @@
         padding: 1rem;
         display: flex;
         cursor: pointer;
-        background: $c-nav;
+        background: $c-foot;
         height: 5vh;
         /* width: 100%; */
     }
