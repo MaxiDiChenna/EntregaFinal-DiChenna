@@ -9,8 +9,6 @@ body {
 
 @media (max-width:400px) {
     .productosImport {
-        // display: flex;
-        // justify-content: center;
         align-items: center;
         height: 25vh;
         background-color: $c-fondo;
@@ -23,7 +21,6 @@ body {
         font-size: 1.18rem;
     }
     .slider {
-        // aspect-ratio: 10 / 16;
         width: 300px;
         position: relative;
         display: flex;
@@ -45,10 +42,7 @@ body {
         height: 100%;
         display: flex;
         justify-content: center;
-        /* width: 100%; */
     }
-    /*fin seccion imagen mobile*/
-    /*inicio imagenes oferta*/
     .titulo-secundario {
         color: $c-violeta;
         text-align: center;
@@ -61,7 +55,6 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 8%;
-        // margin-bottom: 5%;
         text-align: center;
         gap: 1rem;
     }
@@ -86,13 +79,11 @@ body {
         font-size: 1.18rem;
     }
     .slider {
-        // aspect-ratio: 10 / 16;
         width: 400px;
         position: relative;
         display: flex;
         overflow: scroll;
         scroll-snap-type: x mandatory;
-        // margin-left: 20%;
         margin-top: 5%;
     }
     .slider img {
@@ -121,12 +112,9 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 4%;
-        // margin-bottom: 5%;
         text-align: center;
     }
     .imgOferta img {
-        // width: 70%;
-        // border-radius: 15px;
         width: 75%;
         height: 80%;
         border-radius: 15px;
@@ -134,7 +122,6 @@ body {
 }
 
 @media (min-width:701px) and (max-width:1921px) {
-    /*inicio seccion imagen-index*/
     .titulo-principal {
         color: $c-violeta;
         text-align: center;
@@ -150,7 +137,6 @@ body {
         flex-direction: column;
     }
     .slider {
-        // aspect-ratio: 10 / 16;
         width: 500px;
         position: relative;
         display: flex;
@@ -173,8 +159,6 @@ body {
         justify-content: center;
         margin-top: 20px;
     }
-    /*fin seccion imagen*/
-    /*inicio imagenes oferta*/
     .titulo-secundario {
         color: $c-violeta;
         text-align: center;
@@ -252,13 +236,11 @@ body {
         align-items: center;
     }
     .slider {
-        // aspect-ratio: 10 / 16;
         width: 310px;
         position: relative;
         display: flex;
         overflow: scroll;
         scroll-snap-type: x mandatory;
-        // margin-left: 22%;
         margin-top: 15px;
     }
     .slider img {
@@ -274,7 +256,6 @@ body {
         height: 100%;
         display: flex;
         justify-content: center;
-        /* width: 100%; */
     }
     .titulo-secundario {
         color: $c-violeta;
@@ -285,7 +266,6 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 4%;
-        // margin-bottom: 5%;
         text-align: center;
     }
     .imgOferta img {
