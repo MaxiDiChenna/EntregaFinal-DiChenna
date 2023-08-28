@@ -111,7 +111,7 @@
     border-bottom: 1px solid #444;
   }
 }
-@media (min-width: 701px) and (max-width: 1921px) {
+@media (min-width: 701px) {
   .top-nav {
     color: rgb(255, 210, 215);
     display: flex;
@@ -397,7 +397,7 @@ body {
     border-radius: 25px;
   }
 }
-@media (min-width: 701px) and (max-width: 1921px) {
+@media (min-width: 701px) {
   .carrito {
     display: flex;
     margin-top: 7%;
@@ -549,7 +549,7 @@ body {
     margin-top: 1%;
   }
 }
-@media (min-width: 701px) and (max-width: 1921px) {
+@media (min-width: 701px) {
   .sec-contacto {
     display: flex;
     justify-content: start;
@@ -709,7 +709,7 @@ body {
     border-radius: 15px;
   }
 }
-@media (min-width: 701px) and (max-width: 1921px) {
+@media (min-width: 701px) {
   .titulo-principal {
     color: violet;
     text-align: center;
@@ -922,7 +922,7 @@ body {
     border-radius: 15px;
   }
 }
-@media (min-width: 701px) and (max-width: 1921px) {
+@media (min-width: 701px) {
   .tit-princ-2 {
     color: violet;
     text-align: center;
@@ -1044,7 +1044,7 @@ body {
     display: none;
   }
 }
-@media (min-width: 701px) and (max-width: 1921px) {
+@media (min-width: 701px) {
   .titulo-principal-3 {
     color: violet;
     display: flex;
