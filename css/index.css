@@ -152,38 +152,38 @@
     display: none;
   }
 }
-@media (max-width: 550px) {
-  .foot {
-    display: flex;
-    cursor: pointer;
-    background: linear-gradient(to top, rgb(128, 98, 214), rgb(50, 38, 83));
-    height: 6%;
-    width: 100%;
-    flex-direction: row;
-    align-items: center;
-    position: absolute;
-    padding: 0%;
-    bottom: 0;
-  }
-  .contacto {
-    color: rgb(237, 237, 237);
-    width: 50%;
-    margin-left: 5%;
-  }
-  .redes {
-    display: inline;
-    margin-left: 60px;
-    color: rgb(237, 237, 237);
-    width: 75%;
-  }
-  .redes h3 {
-    margin-left: 40px;
-  }
-  .redes div a {
-    margin-left: 70px;
-    color: rgb(237, 237, 237);
-  }
+.foot {
+  display: flex;
+  cursor: pointer;
+  background: linear-gradient(to top, rgb(128, 98, 214), rgb(50, 38, 83));
+  height: 4.7%;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
 }
+
+.contacto {
+  color: rgb(237, 237, 237);
+  width: 50%;
+  margin-left: 5%;
+}
+
+.redes {
+  display: inline;
+  color: rgb(237, 237, 237);
+}
+
+.redes h3 {
+  margin-left: 40px;
+}
+
+.redes div a {
+  margin-left: 70px;
+  color: rgb(237, 237, 237);
+}
+
 @media (min-width: 551px) and (max-width: 700px) {
   .foot {
     padding: 1rem;
@@ -194,6 +194,8 @@
     flex-direction: row;
     align-items: center;
     margin-top: 8%;
+    position: inherit;
+    width: auto;
   }
   .contacto {
     color: rgb(237, 237, 237);
@@ -212,13 +214,15 @@
     color: rgb(237, 237, 237);
   }
 }
-@media (min-width: 701px) and (max-width: 1921px) {
+@media (min-width: 701px) {
   .foot {
     padding: 1rem;
     display: flex;
     cursor: pointer;
     background: linear-gradient(to top, rgb(128, 98, 214), rgb(50, 38, 83));
     height: 5vh;
+    position: inherit;
+    width: auto;
   }
   .contacto {
     color: rgb(237, 237, 237);
@@ -237,35 +241,36 @@
     color: rgb(237, 237, 237);
   }
 }
-@media (max-width: 550px) {
-  .foot-producto {
-    display: flex;
-    cursor: pointer;
-    background: linear-gradient(to top, rgb(128, 98, 214), rgb(50, 38, 83));
-    height: 10vh;
-    flex-direction: row;
-    align-items: center;
-    padding: 1%;
-    margin-top: 15%;
-  }
-  .contacto {
-    color: rgb(237, 237, 237);
-    width: 50%;
-    margin-left: 5%;
-  }
-  .redes {
-    display: inline;
-    margin-left: 60px;
-    color: rgb(237, 237, 237);
-  }
-  .redes h3 {
-    margin-left: 40px;
-  }
-  .redes div a {
-    margin-left: 70px;
-    color: rgb(237, 237, 237);
-  }
+.foot-producto {
+  display: flex;
+  cursor: pointer;
+  background: linear-gradient(to top, rgb(128, 98, 214), rgb(50, 38, 83));
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15%;
 }
+
+.contacto-producto {
+  color: rgb(237, 237, 237);
+  width: 50%;
+  margin-left: 5%;
+}
+
+.redes-producto {
+  display: inline;
+  color: rgb(237, 237, 237);
+}
+
+.redes-producto h3 {
+  margin-left: 40px;
+}
+
+.redes-producto div a {
+  margin-left: 70px;
+  color: rgb(237, 237, 237);
+}
+
 @media (min-width: 551px) and (max-width: 700px) {
   .foot-producto {
     padding: 1rem;
@@ -275,43 +280,47 @@
     height: 10vh;
     flex-direction: row;
     align-items: center;
-    margin-top: 15%;
+    position: inherit;
+    width: auto;
   }
-  .contacto {
+  .contacto-producto {
     color: rgb(237, 237, 237);
     width: 50%;
   }
-  .redes {
+  .redes-producto {
     display: inline;
     margin-left: 60px;
     color: rgb(237, 237, 237);
   }
-  .redes h3 {
+  .redes-producto h3 {
     margin-left: 40px;
   }
-  .redes div a {
+  .redes-producto div a {
     margin-left: 70px;
     color: rgb(237, 237, 237);
   }
 }
-@media (min-width: 701px) and (max-width: 1921px) {
+@media (min-width: 701px) {
   .foot-producto {
     padding: 1rem;
     display: flex;
     cursor: pointer;
     background: linear-gradient(to top, rgb(128, 98, 214), rgb(50, 38, 83));
     height: 5vh;
+    position: inherit;
+    width: auto;
+    margin-top: auto;
   }
-  .contacto {
+  .contacto-producto {
     color: rgb(237, 237, 237);
     width: 50%;
   }
-  .redes {
+  .redes-producto {
     display: inline;
     margin-left: 400px;
     color: rgb(237, 237, 237);
   }
-  .redes h3 {
+  .redes-producto h3 {
     margin-left: 40px;
   }
   .redes div a {

@@ -1,34 +1,33 @@
-@media (max-width:550px) {
-    .foot {
-        display: flex;
-        cursor: pointer;
-        background: $c-foot;
-        height: 6%;
-        width: 100%;
-        flex-direction: row;
-        align-items: center;
-        position: absolute;
-        padding: 0%;
-        bottom: 0;
-    }
-    .contacto {
-        color: $c-fondo;
-        width: 50%;
-        margin-left: 5%;
-    }
-    .redes {
-        display: inline;
-        margin-left: 60px;
-        color: $c-fondo;
-        width: 75%;
-    }
-    .redes h3 {
-        margin-left: 40px;
-    }
-    .redes div a {
-        margin-left: 70px;
-        color: $c-fondo;
-    }
+.foot {
+    display: flex;
+    cursor: pointer;
+    background: $c-foot;
+    height: 4.7%;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.contacto {
+    color: $c-fondo;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.redes {
+    display: inline;
+    color: $c-fondo;
+}
+
+.redes h3 {
+    margin-left: 40px;
+}
+
+.redes div a {
+    margin-left: 70px;
+    color: $c-fondo;
 }
 
 @media (min-width:551px) and (max-width:700px) {
@@ -41,6 +40,8 @@
         flex-direction: row;
         align-items: center;
         margin-top: 8%;
+        position: inherit;
+        width: auto;
     }
     .contacto {
         color: $c-fondo;
@@ -60,13 +61,15 @@
     }
 }
 
-@media (min-width:701px) and (max-width:1921px) {
+@media (min-width:701px) {
     .foot {
         padding: 1rem;
         display: flex;
         cursor: pointer;
         background: $c-foot;
         height: 5vh;
+        position: inherit;
+        width: auto;
     }
     .contacto {
         color: $c-fondo;
@@ -86,34 +89,34 @@
     }
 }
 
-@media (max-width:550px) {
-    .foot-producto {
-        display: flex;
-        cursor: pointer;
-        background: $c-foot;
-        height: 10vh;
-        flex-direction: row;
-        align-items: center;
-        padding: 1%;
-        margin-top: 15%;
-    }
-    .contacto {
-        color: $c-fondo;
-        width: 50%;
-        margin-left: 5%;
-    }
-    .redes {
-        display: inline;
-        margin-left: 60px;
-        color: $c-fondo;
-    }
-    .redes h3 {
-        margin-left: 40px;
-    }
-    .redes div a {
-        margin-left: 70px;
-        color: $c-fondo;
-    }
+.foot-producto {
+    display: flex;
+    cursor: pointer;
+    background: $c-foot;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.contacto-producto {
+    color: $c-fondo;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.redes-producto {
+    display: inline;
+    color: $c-fondo;
+}
+
+.redes-producto h3 {
+    margin-left: 40px;
+}
+
+.redes-producto div a {
+    margin-left: 70px;
+    color: $c-fondo;
 }
 
 @media (min-width:551px) and (max-width:700px) {
@@ -125,44 +128,48 @@
         height: 10vh;
         flex-direction: row;
         align-items: center;
-        margin-top: 15%;
+        position: inherit;
+        width: auto;
     }
-    .contacto {
+    .contacto-producto {
         color: $c-fondo;
         width: 50%;
     }
-    .redes {
+    .redes-producto {
         display: inline;
         margin-left: 60px;
         color: $c-fondo;
     }
-    .redes h3 {
+    .redes-producto h3 {
         margin-left: 40px;
     }
-    .redes div a {
+    .redes-producto div a {
         margin-left: 70px;
         color: $c-fondo;
     }
 }
 
-@media (min-width:701px) and (max-width:1921px) {
+@media (min-width:701px) {
     .foot-producto {
         padding: 1rem;
         display: flex;
         cursor: pointer;
         background: $c-foot;
         height: 5vh;
+        position: inherit;
+        width: auto;
+        margin-top: auto;
     }
-    .contacto {
+    .contacto-producto {
         color: $c-fondo;
         width: 50%;
     }
-    .redes {
+    .redes-producto {
         display: inline;
         margin-left: 400px;
         color: $c-fondo;
     }
-    .redes h3 {
+    .redes-producto h3 {
         margin-left: 40px;
     }
     .redes div a {
