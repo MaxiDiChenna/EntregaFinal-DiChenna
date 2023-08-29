@@ -7,34 +7,34 @@ body {
     background-color: $c-fondo;
 }
 
-@media (max-width:400px) {
-    .carrito {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        margin-top: 5%;
-        img {
-            width: 30%;
-            border-radius: 10px;
-        }
+.carrito {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 5%;
+    img {
+        width: 30%;
+        border-radius: 10px;
     }
-    .carrito-2 {
-        margin-top: 1rem;
-        border: 1px solid $c-negro;
-    }
-    .img-carrito-oferta {
-        display: grid;
-        grid-template-columns: 49% 49%;
-        align-items: center;
-        margin-top: 5%;
-        padding: 5%;
-        grid-gap: 5%;
-        img {
-            width: 100%;
-            border-radius: 20px;
-        }
+}
+
+.carrito-2 {
+    margin-top: 1rem;
+    border: 1px solid $c-negro;
+}
+
+.img-carrito-oferta {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    align-items: center;
+    margin-top: 5%;
+    padding: 5%;
+    grid-gap: 5%;
+    img {
+        width: 100%;
+        border-radius: 20px;
     }
 }
 

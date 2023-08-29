@@ -7,69 +7,77 @@ body {
     background-color: $c-fondo;
 }
 
-@media (max-width:400px) {
-    .productosImport {
-        align-items: center;
-        height: 25vh;
-        background-color: $c-fondo;
-        margin-top: 5%;
-    }
-    .titulo-principal {
-        color: $c-violeta;
-        text-align: center;
-        padding: 0.5rem;
-        font-size: 1.18rem;
-    }
-    .slider {
-        width: 300px;
-        position: relative;
-        display: flex;
-        overflow: scroll;
-        scroll-snap-type: x mandatory;
-        margin-left: 13%;
-        margin-top: 5%;
-    }
-    .slider img {
-        width: 100%;
-        left: 0;
-        position: sticky;
-        object-fit: cover;
-        border-radius: 5px;
-        scroll-snap-align: center;
-    }
-    .imagenes-carrusel {
-        background-color: $c-negro;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    .titulo-secundario {
-        color: $c-violeta;
-        text-align: center;
-    }
-    .pro-oferta {
-        width: 100%;
-        margin-top: 5%;
-    }
-    .imgOferta {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-top: 8%;
-        text-align: center;
-        gap: 1rem;
-    }
-    .imgOferta div img {
-        width: 90%;
-        height: 70%;
-        border-radius: 15px;
-    }
-    .imgOferta div {
-        text-align: center;
-    }
-    .imgOferta-a {
-        text-decoration: none;
-        color: $c-negro;
-    }
+.productosImport {
+    align-items: center;
+    height: 25vh;
+    background-color: $c-fondo;
+    margin-top: 5%;
+}
+
+.titulo-principal {
+    color: $c-violeta;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.18rem;
+}
+
+.slider {
+    width: 300px;
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+.slider img {
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: cover;
+    border-radius: 5px;
+    scroll-snap-align: center;
+}
+
+.imagenes-carrusel {
+    background-color: $c-negro;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-secundario {
+    color: $c-violeta;
+    text-align: center;
+}
+
+.pro-oferta {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.imgOferta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 8%;
+    text-align: center;
+    gap: 1rem;
+}
+
+.imgOferta div img {
+    width: 90%;
+    height: 70%;
+    border-radius: 15px;
+}
+
+.imgOferta div {
+    text-align: center;
+}
+
+.imgOferta-a {
+    text-decoration: none;
+    color: $c-negro;
 }
 
 @media (min-width:551px) and (max-width:700px) {
@@ -142,7 +150,9 @@ body {
         display: flex;
         overflow: scroll;
         scroll-snap-type: x mandatory;
-        animation: jello-vertical 1.5s linear both
+        animation: jello-vertical 1.5s linear both;
+        margin-left: 0%;
+        margin-top: 0%;
     }
     .slider img {
         width: 100%;

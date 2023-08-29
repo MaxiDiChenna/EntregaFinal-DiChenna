@@ -7,33 +7,35 @@ body {
     background-color: $c-fondo;
 }
 
-@media (max-width:400px) {
-    .contac {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 3%;
-    }
-    .contac h2 {
-        color: $c-violeta;
-    }
-    .maps {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 5%;
-        text-align: center;
-        margin-bottom: 15px;
-    }
-    .maps h2 {
-        color: $c-violeta;
-    }
-    .maps-2 {
-        width: 100%;
-        margin-top: 5px;
-    }
+.contac {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+.contac h2 {
+    color: $c-violeta;
+}
+
+.maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.maps h2 {
+    color: $c-violeta;
+}
+
+.maps-2 {
+    width: 100%;
+    margin-top: 5px;
 }
 
 @media (min-width:401px) and (max-width:551px) {
@@ -102,11 +104,15 @@ body {
         margin-top: 6%;
         margin-left: 8%;
     }
+    .contac {
+        padding: 0%;
+        display: block;
+    }
     .maps {
         display: flex;
         align-items: end;
         flex-direction: column;
-        margin-top: -430px;
+        margin-top: -440px;
         margin-right: 80px;
         margin-bottom: 50px;
     }

@@ -7,33 +7,34 @@ body {
     background-color: $c-fondo;
 }
 
-@media (max-width:401px) {
-    .tit-princ-2 {
-        color: $c-violeta;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: $c-fondo;
-        margin-top: 5%;
-        font-size: 1.18rem;
-    }
-    .productos-pag2 {
-        display: grid;
-        margin-top: 5%;
-        height: 100%;
-        grid-template-columns: 50% 50%;
-        margin-bottom: 5%;
-    }
-    .img-productos {
-        text-align: center;
-        text-decoration: none;
-    }
-    .img-productos img {
-        width: 60%;
-        height: auto;
-        border-radius: 10px;
-    }
+.tit-princ-2 {
+    color: $c-violeta;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $c-fondo;
+    margin-top: 5%;
+    font-size: 1.18rem;
+}
+
+.productos-pag2 {
+    display: grid;
+    margin-top: 5%;
+    height: 100%;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 5%;
+}
+
+.img-productos {
+    text-align: center;
+    text-decoration: none;
+}
+
+.img-productos img {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
 }
 
 @media (min-width:402px) and (max-width:700px) {

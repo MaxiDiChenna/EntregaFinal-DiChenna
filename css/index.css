@@ -184,7 +184,7 @@
   color: rgb(237, 237, 237);
 }
 
-@media (min-width: 551px) and (max-width: 700px) {
+@media (min-width: 515px) and (max-width: 700px) {
   .foot {
     padding: 1rem;
     display: flex;
@@ -337,36 +337,37 @@ body {
   background-color: rgb(237, 237, 237);
 }
 
-@media (max-width: 400px) {
-  .carrito {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    margin-top: 5%;
-  }
-  .carrito img {
-    width: 30%;
-    border-radius: 10px;
-  }
-  .carrito-2 {
-    margin-top: 1rem;
-    border: 1px solid black;
-  }
-  .img-carrito-oferta {
-    display: grid;
-    grid-template-columns: 49% 49%;
-    align-items: center;
-    margin-top: 5%;
-    padding: 5%;
-    grid-gap: 5%;
-  }
-  .img-carrito-oferta img {
-    width: 100%;
-    border-radius: 20px;
-  }
+.carrito {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin-top: 5%;
 }
+.carrito img {
+  width: 30%;
+  border-radius: 10px;
+}
+
+.carrito-2 {
+  margin-top: 1rem;
+  border: 1px solid black;
+}
+
+.img-carrito-oferta {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  align-items: center;
+  margin-top: 5%;
+  padding: 5%;
+  grid-gap: 5%;
+}
+.img-carrito-oferta img {
+  width: 100%;
+  border-radius: 20px;
+}
+
 @media (min-width: 401px) and (max-width: 700px) {
   .carrito {
     display: flex;
@@ -466,34 +467,37 @@ body {
   background-color: rgb(237, 237, 237);
 }
 
-@media (max-width: 400px) {
-  .contac {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 3%;
-  }
-  .contac h2 {
-    color: violet;
-  }
-  .maps {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  .maps h2 {
-    color: violet;
-  }
-  .maps-2 {
-    width: 100%;
-    margin-top: 5px;
-  }
+.contac {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
 }
+
+.contac h2 {
+  color: violet;
+}
+
+.maps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.maps h2 {
+  color: violet;
+}
+
+.maps-2 {
+  width: 100%;
+  margin-top: 5px;
+}
+
 @media (min-width: 401px) and (max-width: 551px) {
   .contac {
     display: flex;
@@ -558,11 +562,15 @@ body {
     margin-top: 6%;
     margin-left: 8%;
   }
+  .contac {
+    padding: 0%;
+    display: block;
+  }
   .maps {
     display: flex;
     align-items: end;
     flex-direction: column;
-    margin-top: -430px;
+    margin-top: -440px;
     margin-right: 80px;
     margin-bottom: 50px;
   }
@@ -597,70 +605,79 @@ body {
   background-color: rgb(237, 237, 237);
 }
 
-@media (max-width: 400px) {
-  .productosImport {
-    align-items: center;
-    height: 25vh;
-    background-color: rgb(237, 237, 237);
-    margin-top: 5%;
-  }
-  .titulo-principal {
-    color: violet;
-    text-align: center;
-    padding: 0.5rem;
-    font-size: 1.18rem;
-  }
-  .slider {
-    width: 300px;
-    position: relative;
-    display: flex;
-    overflow: scroll;
-    scroll-snap-type: x mandatory;
-    margin-left: 13%;
-    margin-top: 5%;
-  }
-  .slider img {
-    width: 100%;
-    left: 0;
-    position: sticky;
-    object-fit: cover;
-    border-radius: 5px;
-    scroll-snap-align: center;
-  }
-  .imagenes-carrusel {
-    background-color: black;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .titulo-secundario {
-    color: violet;
-    text-align: center;
-  }
-  .pro-oferta {
-    width: 100%;
-    margin-top: 5%;
-  }
-  .imgOferta {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 8%;
-    text-align: center;
-    gap: 1rem;
-  }
-  .imgOferta div img {
-    width: 90%;
-    height: 70%;
-    border-radius: 15px;
-  }
-  .imgOferta div {
-    text-align: center;
-  }
-  .imgOferta-a {
-    text-decoration: none;
-    color: black;
-  }
+.productosImport {
+  align-items: center;
+  height: 25vh;
+  background-color: rgb(237, 237, 237);
+  margin-top: 5%;
 }
+
+.titulo-principal {
+  color: violet;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.18rem;
+}
+
+.slider {
+  width: 300px;
+  position: relative;
+  display: flex;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  margin-left: 13%;
+  margin-top: 5%;
+}
+
+.slider img {
+  width: 100%;
+  left: 0;
+  position: sticky;
+  object-fit: cover;
+  border-radius: 5px;
+  scroll-snap-align: center;
+}
+
+.imagenes-carrusel {
+  background-color: black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-secundario {
+  color: violet;
+  text-align: center;
+}
+
+.pro-oferta {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.imgOferta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 8%;
+  text-align: center;
+  gap: 1rem;
+}
+
+.imgOferta div img {
+  width: 90%;
+  height: 70%;
+  border-radius: 15px;
+}
+
+.imgOferta div {
+  text-align: center;
+}
+
+.imgOferta-a {
+  text-decoration: none;
+  color: black;
+}
+
 @media (min-width: 551px) and (max-width: 700px) {
   .titulo-principal {
     color: violet;
@@ -731,6 +748,8 @@ body {
     overflow: scroll;
     scroll-snap-type: x mandatory;
     animation: jello-vertical 1.5s linear both;
+    margin-left: 0%;
+    margin-top: 0%;
   }
   .slider img {
     width: 100%;
@@ -870,34 +889,36 @@ body {
   background-color: rgb(237, 237, 237);
 }
 
-@media (max-width: 401px) {
-  .tit-princ-2 {
-    color: violet;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(237, 237, 237);
-    margin-top: 5%;
-    font-size: 1.18rem;
-  }
-  .productos-pag2 {
-    display: grid;
-    margin-top: 5%;
-    height: 100%;
-    grid-template-columns: 50% 50%;
-    margin-bottom: 5%;
-  }
-  .img-productos {
-    text-align: center;
-    text-decoration: none;
-  }
-  .img-productos img {
-    width: 60%;
-    height: auto;
-    border-radius: 10px;
-  }
+.tit-princ-2 {
+  color: violet;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(237, 237, 237);
+  margin-top: 5%;
+  font-size: 1.18rem;
 }
+
+.productos-pag2 {
+  display: grid;
+  margin-top: 5%;
+  height: 100%;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 5%;
+}
+
+.img-productos {
+  text-align: center;
+  text-decoration: none;
+}
+
+.img-productos img {
+  width: 60%;
+  height: auto;
+  border-radius: 10px;
+}
+
 @media (min-width: 402px) and (max-width: 700px) {
   .tit-princ-2 {
     color: violet;
@@ -998,29 +1019,30 @@ body {
   background-color: rgb(237, 237, 237);
 }
 
-@media (max-width: 400px) {
-  .titulo-principal-3 {
-    color: violet;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(237, 237, 237);
-    margin-top: 1px;
-    font-size: 1.18rem;
-  }
-  .labels {
-    display: grid;
-    align-content: stretch;
-    justify-content: center;
-    gap: 5rem;
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
-  .sponsor {
-    display: none;
-  }
+.titulo-principal-3 {
+  color: violet;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(237, 237, 237);
+  margin-top: 1px;
+  font-size: 1.18rem;
 }
+
+.labels {
+  display: grid;
+  align-content: stretch;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.sponsor {
+  display: none;
+}
+
 @media (max-width: 700px) {
   .titulo-principal-3 {
     color: violet;
@@ -1061,6 +1083,7 @@ body {
     grid-template-columns: 1fr 1fr;
     margin-left: 20rem;
     margin-bottom: 10rem;
+    margin-top: 0%;
   }
   .sponsor {
     display: flex;
