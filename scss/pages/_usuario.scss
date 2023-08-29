@@ -55,7 +55,32 @@ body {
     }
 }
 
-@media (min-width:701px) {
+@media (min-width:701px) and (max-width:1200px) {
+    .titulo-principal-3 {
+        color: $c-violeta;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $c-fondo;
+        margin-top: 5%;
+        font-size: 1.16rem;
+    }
+    .labels {
+        display: grid;
+        align-content: stretch;
+        justify-content: center;
+        gap: 4rem;
+        margin-top: 6%;
+        margin-bottom: 22%;
+        font-size: 1.2rem;
+    }
+    .sponsor {
+        display: none;
+    }
+}
+
+@media (min-width:1201px) {
     .titulo-principal-3 {
         color: $c-violeta;
         display: flex;
@@ -70,15 +95,17 @@ body {
         display: grid;
         gap: 5rem;
         grid-template-columns: 1fr 1fr;
-        margin-left: 20rem;
+        justify-items: center;
         margin-bottom: 10rem;
         margin-top: 0%;
     }
     .sponsor {
-        display: flex;
+        display: grid;
         align-items: center;
-        gap: 25rem;
-        margin-left: 5rem;
+        grid-template-columns: 33% 33% 33%;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
         img {
             border-radius: 10px;
         }

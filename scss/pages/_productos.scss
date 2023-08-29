@@ -62,7 +62,101 @@ body {
     }
 }
 
-@media (min-width:701px) {
+@media (min-width:701px) and (max-width:1600px) {
+    .tit-princ-2 {
+        color: $c-violeta;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+        background-color: $c-fondo;
+        margin-top: 0%;
+        font-size: 1.3rem;
+    }
+    .productos-pag2 {
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 33% 33% 33%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        justify-items: center;
+    }
+    .img-productos {
+        width: 80%;
+        text-align: center;
+        text-decoration: none;
+        img {
+            width: 200px;
+            height: auto;
+            border-radius: 30px;
+            animation: jello-horizontal .9s linear both;
+            animation-delay: .1s
+        }
+        img:hover {
+            animation: escala-center 0.6s;
+        }
+    }
+    @keyframes escala-center {
+        0% {
+            transform: scale(.5)
+        }
+        100% {
+            transform: scale(1)
+        }
+    }
+    @keyframes jello-horizontal {
+        0% {
+            transform: scale3d(1, 1, 1)
+        }
+        30% {
+            transform: scale3d(1.25, .75, 1)
+        }
+        40% {
+            transform: scale3d(.75, 1.25, 1)
+        }
+        50% {
+            transform: scale3d(1.15, .85, 1)
+        }
+        65% {
+            transform: scale3d(.95, 1.05, 1)
+        }
+        75% {
+            transform: scale3d(1.05, .95, 1)
+        }
+        100% {
+            transform: scale3d(1, 1, 1)
+        }
+    }
+}
+
+@media (min-width:1201px) and (max-width:1601px) {
+    .tit-princ-2 {
+        color: $c-violeta;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+        background-color: $c-fondo;
+        font-size: 1.3rem;
+        margin-top: 5%;
+    }
+    .img-productos {
+        width: 80%;
+        text-align: center;
+        text-decoration: none;
+        img {
+            width: 260px;
+            height: auto;
+            border-radius: 30px;
+            animation: jello-horizontal .9s linear both;
+            animation-delay: .1s
+        }
+    }
+}
+
+@media (min-width:1601px) {
     .tit-princ-2 {
         color: $c-violeta;
         text-align: center;
