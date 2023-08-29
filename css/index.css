@@ -379,15 +379,6 @@ body {
     color: rgb(237, 237, 237);
   }
 }
-body {
-  margin: 0;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(237, 237, 237);
-}
-
 .carrito {
   display: flex;
   flex-wrap: wrap;
@@ -556,15 +547,6 @@ body {
     }
   }
 }
-body {
-  margin: 0;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(237, 237, 237);
-}
-
 .contac {
   display: flex;
   flex-direction: column;
@@ -731,15 +713,6 @@ body {
     text-align: center;
   }
 }
-body {
-  margin: 0;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(237, 237, 237);
-}
-
 .productosImport {
   align-items: center;
   height: 25vh;
@@ -1147,15 +1120,6 @@ body {
     border-radius: 15px;
   }
 }
-body {
-  margin: 0;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(237, 237, 237);
-}
-
 .tit-princ-2 {
   color: violet;
   text-align: center;
@@ -1370,15 +1334,6 @@ body {
     }
   }
 }
-body {
-  margin: 0;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(237, 237, 237);
-}
-
 .titulo-principal-3 {
   color: violet;
   text-align: center;
