@@ -772,6 +772,10 @@ body {
     text-align: center;
     font-size: 1.6rem;
   }
+  .pro-oferta {
+    width: 100%;
+    margin-top: 2%;
+  }
   .imgOferta {
     display: flex;
     gap: 1.5rem;
@@ -962,6 +966,7 @@ body {
     margin-top: -25px;
     height: 100vh;
     grid-template-columns: 25% 25% 25% 25%;
+    margin-bottom: 0%;
   }
   .img-productos {
     width: 80%;
