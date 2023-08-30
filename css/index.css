@@ -1353,6 +1353,17 @@ body {
   margin-top: 10%;
   margin-bottom: 10%;
 }
+.labels label {
+  font-size: 1.1rem;
+  color: hotpink;
+  font-weight: bold;
+}
+.labels .boton-de-color {
+  border-radius: 5px;
+  background-color: slateblue;
+  color: white;
+  border: 1px solid white;
+}
 
 .sponsor {
   display: none;
@@ -1376,6 +1387,17 @@ body {
     gap: 5rem;
     margin-top: 8%;
     margin-bottom: 8%;
+  }
+  .labels label {
+    font-size: 1.1rem;
+    color: hotpink;
+    font-weight: bold;
+  }
+  .labels .boton-de-color {
+    border-radius: 5px;
+    background-color: slateblue;
+    color: white;
+    border: 1px solid white;
   }
   .sponsor {
     display: none;
@@ -1401,6 +1423,17 @@ body {
     margin-bottom: 22%;
     font-size: 1.2rem;
   }
+  .labels label {
+    font-size: 1.1rem;
+    color: hotpink;
+    font-weight: bold;
+  }
+  .labels .boton-de-color {
+    border-radius: 5px;
+    background-color: slateblue;
+    color: white;
+    border: 1px solid white;
+  }
   .sponsor {
     display: none;
   }
@@ -1423,6 +1456,17 @@ body {
     justify-items: center;
     margin-bottom: 10rem;
     margin-top: 0%;
+  }
+  .labels label {
+    font-size: 1.1rem;
+    color: hotpink;
+    font-weight: bold;
+  }
+  .labels .boton-de-color {
+    border-radius: 5px;
+    background-color: slateblue;
+    color: white;
+    border: 1px solid white;
   }
   .sponsor {
     display: grid;
